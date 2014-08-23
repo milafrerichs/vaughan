@@ -1,4 +1,4 @@
-auto: true
+baseurl: '/jekyll-template'
 sass:
     style:  expanded
     deploy_style: compressed
