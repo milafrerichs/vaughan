@@ -1,0 +1,4 @@
+auto: true
+sass:
+    style:  expanded
+    deploy_style: compressed
