@@ -1,4 +1,5 @@
-baseurl: '/jekyll-template'
+baseurl: '/vaughan'
 sass:
     style:  expanded
     deploy_style: compressed
+    sass_dir: _sass
