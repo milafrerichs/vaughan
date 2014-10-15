@@ -1,5 +1,5 @@
 Vaughan Inc  
-28 Scott Avenue  
+28 Scott Avenue, Suite 108  
 Brooklyn, NY 11237  
 
 646.484.8343  
