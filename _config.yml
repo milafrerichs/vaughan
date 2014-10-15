@@ -6,3 +6,4 @@ sass:
 prose:
   rooturl: '_includes'
   media: 'media'
+  siteurl: 'http://vaughaninc.github.io/vaughan/'
