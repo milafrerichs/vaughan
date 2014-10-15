@@ -3,3 +3,6 @@ sass:
     style:  expanded
     deploy_style: compressed
     sass_dir: _sass
+prose:
+  rooturl: '_includes'
+  media: 'media'
