@@ -7,18 +7,17 @@
 
 @import 'components/footer'
 @import 'components/navigation'
+$main-color: #006D86
+
+@import 'main'
 
 body
-  background: #d4d4d4 url('../images/background.png')
-  text-align: center
+  background: $main-color
   font-family: sans-serif
 
-h1
-  color: rgba(0, 0, 0, .3)
-  font-weight: bold
-  font-size: 32px
-  letter-spacing: -1px
-  text-transform: uppercase
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5)
-  padding: 350px 0 10px
-  margin: 0
+h1#logo
+  background: url(../images/logo.png) center center no-repeat
+  width: 294px
+  height: 200px
+  margin: 0 auto
+

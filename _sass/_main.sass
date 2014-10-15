@@ -1,0 +1,30 @@
+.content-container
+  background: #E4E4E4
+
+.content
+  @include outer-container()
+  padding: 20px
+  margin-top: 5em
+
+  .title
+    @include span-columns(6)
+    h2
+      font-size: 32px
+      color: #4A4A4A
+      line-height: 38px
+  .text
+    @include span-columns(6)
+    margin-top: 2em
+  #about-us
+    @include row()
+  #contact-us
+    @include row()
+    margin-top: 2em
+  .line
+    @include row()
+    margin-top: 2em
+    height: 1px
+    margin: 2em 0 0
+    background: #D5D5D5
+button
+  background-color: $main-color
