@@ -1,0 +1,6 @@
+.title
+  %h2 About Us
+.text
+  {% capture aboutus %}{% include about_us.md %}{% endcapture %}
+  {{ aboutus | markdownify }}
+  %button View Clients

@@ -1,0 +1,6 @@
+.title
+  %h2 Contact Us
+.text
+  {% capture contact %}{% include contact.md %}{% endcapture %}
+  {{ contact | markdownify }}
+  %button Get in touch

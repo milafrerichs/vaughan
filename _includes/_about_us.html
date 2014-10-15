@@ -1,0 +1,8 @@
+<div class='title'>
+  <h2>About Us</h2>
+</div>
+<div class='text'>
+  {% capture aboutus %}{% include about_us.md %}{% endcapture %}
+  {{ aboutus | markdownify }}
+  <button>View Clients</button>
+</div>
